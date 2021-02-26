@@ -812,7 +812,14 @@ html.Div([
     html.Div([
         dcc.Markdown("""
         So far you have learned what your REC obligations are under the RPS, you have explored how much capacity is needed for different renewable technologies to meet your utility's obligations, 
-        and you have planned for what years you will need to procure renewables. Click the link below to access the calculation offline.
+        and you have planned for what years you will need to procure renewables. 
+        """)
+    ],
+    className='twelve columns'),
+
+    html.Div([
+        dcc.Markdown("""
+        Click the link below to access the RPS calculator offline.
         """)
     ],
     className='twelve columns'),
