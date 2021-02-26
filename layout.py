@@ -35,7 +35,7 @@ html_obj = html.Div([
             )], href='https://www.cleanenergyinvest.org'),
 
         html.H4(
-            'A decision support tool for renewable energy planning for utilities.',
+            'A decision support tool for renewable energy planning for utilities',
             style={'font-family': 'Helvetica',
                 'position':'left',
                 'width':'100%'},
@@ -659,12 +659,12 @@ html.Div([
     resource capacity factor, and operations & maintenance expenses. For fossil-fuel generators, the LCOE also includes the cost of fuel such as coal or natural gas,
     which can be quite expensive in the Philippines. 
 
-    IRENA's 2017 data suggests that the global LCOE for renewables ranges between $0.05 (Php 2.5) per kWh for hydro to $0.10 (Php 5) per kWh for utility-scale solar installations.
+    IRENA's 2019 data suggests that the global LCOE for renewables ranges between $0.047 (Php 2.3) per kWh for hydro to $0.073 (Php 3.6) per kWh for geothermal installations.
     The graphs below display the median price, along with global prices between the fifth and ninety-fifth percentiles. Note that some technologies, like geothermal or hydro might only be suitable for larger capacity installations,
     while solar, biomass, and wind are more likely to be scalable to your custom capacity requirements. 
 
-    The IRENA LCOE data informs us that the price of renewables has declined dramatically in recent years. Since 2010, the average LCOE for solar has declined 72% from $0.36 (Php 18) to $0.10 (Php 5) per kWh in 2017.
-    Over the same time period, wind's LCOE has declined 25% from $0.08 (Php 4) to $0.06 (Php 3) per kWh, while other technologies like geothermal, biomass, and hydro have remained constant or seen slight increases in cost. 
+    The IRENA LCOE data informs us that the price of renewables has declined dramatically in recent years. Since 2010, the average LCOE for solar has declined 82% from $0.378 (Php 18.5) to $0.068 (Php 3.3) per kWh in 2017.
+    Over the same time period, wind's LCOE has declined 38% from $0.086 (Php 4.2) to $0.053 (Php 2.6) per kWh, while other technologies like geothermal, biomass, and hydro have remained constant or seen slight increases in cost. 
     Renewables may be less expensive on a per kWh basis than coal or natural gas and also are not susceptible to fluctuations in fuel prices. 
 
     Finally, consider that some REC procurement can be done through utility programs such as solar net-metering and the new GEOP, which allow customers to build their own renewables while providing the utility with RECs. 
@@ -962,6 +962,11 @@ html.Div([
                 *Additional Price Data from:*
 
                 Biomass Renewable Energy Alliance (BREA). "Biomass: Fueling the Economy of the Philippines". Presented March 2019.
+
+
+                *Assumed Exchange Rate:*
+
+                $1 = Php 49
                 
                 """.replace('  ', '')
         )],
