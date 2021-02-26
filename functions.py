@@ -864,7 +864,7 @@ def economic_text_maker(rows, columns):
 def savings_text_maker(json):
     input_dict = json_func.loads(json)
 
-    currency_exchange = 50 #pesos in usd
+    currency_exchange = 49 #pesos in usd
 
     start_cost = int(input_dict['start_expense'])
     start_cost_usd = int(start_cost / currency_exchange)
