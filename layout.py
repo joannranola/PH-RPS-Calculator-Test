@@ -97,7 +97,7 @@ html_obj = html.Div([
 
                                     html.Div([
                                         ' \u003f\u20dd',
-                                        html.Span('When a utility name (acronym) is selected, data such as annual energy sales, demand growth, and FiT allocation are automatically loaded from a 2017 DOE Database. Users can overwrite this data in the Manual Utility Data Input tab.'
+                                        html.Span('When a utility name (acronym) is selected, data such as annual energy sales, demand growth, and FiT allocation are automatically loaded from the DOE Database. Users can overwrite this data in the Manual Utility Data Input tab.'
                                         , className="tooltiptext")], className="tooltip", style={'padding-left':5}),
                                     dcc.Dropdown(
                                         id='utility_name',
