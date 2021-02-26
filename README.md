@@ -1,8 +1,8 @@
 **A decision support tool for renewable energy planning for utilities.**
 
-Master Version: https://phl-rps-calc.herokuapp.com/
+Master Version: https://ph-rps-calc.herokuapp.com/
 
-Dev Version: https://phl-rps-calc-demo.herokuapp.com/
+Dev Version: https://ph-rps-calc-demo.herokuapp.com/
 
 The Philippines RPS is a legislative mandate requiring utilities to increase their use of renewable resources including “biomass, waste to energy technology, wind, solar, run-of-river, impounding hydropower sources that meet internationally accepted standards, ocean, hybrid systems, geothermal and other RE technologies that may be later identified by the DOE."
 
