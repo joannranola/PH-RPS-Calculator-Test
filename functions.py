@@ -248,7 +248,7 @@ def df_initializer(demand, demand_growth, json,
     df = rps_df_maker(demand=demand, demand_growth=demand_growth, future_procurement=future_procurement, fit_pct=fit_pct,
                     annual_rps_inc_2020=annual_rps_inc_2020, annual_rps_inc_2023=annual_rps_inc_2023,
                     end_year=end_year)
-    df = round(df, 3)
+    df = round(df, 4)
     return df.to_json()
 
 @app.callback(
