@@ -812,26 +812,22 @@ html.Div([
     html.Div([
         dcc.Markdown("""
         So far you have learned what your REC obligations are under the RPS, you have explored how much capacity is needed for different renewable technologies to meet your utility's obligations, 
-        and you have planned for what years you will need to procure renewables. 
+        and you have planned for what years you will need to procure renewables. You can review your RPS plan by clicking the offline RPS calculator in the link below. 
         """)
     ],
     className='twelve columns'),
 
-    html.Div([
-        dcc.Markdown("""
-        Click the link below to access the RPS calculator offline.
-        """)
-    ],
-    className='twelve columns'),
-    
     html.A(
-        "Download RPS Calculator", 
+        "Download Offline RPS Calculator", 
         href=r"assets/CEIA Philippine RPS Calculator.xlsb", 
         download=r"assets/CEIA Philippine RPS Calculator.xlsb"),
     
     html.Div(
         className='twelve columns'),
-    
+
+    html.Div(
+        className='twelve columns'),
+
     html.Div([
         dcc.Markdown("""
         The next step is to conduct a detailed feasibility study examining the techno-economic potential of specific renewable energy projects. To begin this process,
