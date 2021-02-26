@@ -830,7 +830,6 @@ html.Div([
             href=r"assets/CEIA Philippine RPS Calculator.xlsb", 
             download=r"assets/CEIA Philippine RPS Calculator.xlsb")
     ],
-    className='twelve columns',
     className='twelve columns'),
     
     html.Div([
