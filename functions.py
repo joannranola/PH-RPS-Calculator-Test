@@ -552,15 +552,15 @@ def lcoe_graph(rows, columns):
         min_2010 = round(dfloc.loc[(dfloc['Year'] == 2010) & (dfloc['Item'] == 'MIN')]['pesos'][0:1].item(),2)
         max_2010 = round(dfloc.loc[(dfloc['Year'] == 2010) & (dfloc['Item'] == 'MAX')]['pesos'][0:1].item(),2)
         avg_2010 = round(dfloc.loc[(dfloc['Year'] == 2010) & (dfloc['Item'] == 'AVG')]['pesos'][0:1].item(),2)
-        min_2017 = round(dfloc.loc[(dfloc['Year'] == 2018) & (dfloc['Item'] == 'MIN')]['pesos'][0:1].item(),2)
-        max_2017 = round(dfloc.loc[(dfloc['Year'] == 2018) & (dfloc['Item'] == 'MAX')]['pesos'][0:1].item(),2)
-        avg_2017 = round(dfloc.loc[(dfloc['Year'] == 2018) & (dfloc['Item'] == 'AVG')]['pesos'][0:1].item(),2)
+        min_2019 = round(dfloc.loc[(dfloc['Year'] == 2019) & (dfloc['Item'] == 'MIN')]['pesos'][0:1].item(),2)
+        max_2019 = round(dfloc.loc[(dfloc['Year'] == 2019) & (dfloc['Item'] == 'MAX')]['pesos'][0:1].item(),2)
+        avg_2019 = round(dfloc.loc[(dfloc['Year'] == 2019) & (dfloc['Item'] == 'AVG')]['pesos'][0:1].item(),2)
 
         input_cost = input_cost_df.loc[input_cost_df['Generation Source'] == t, 'Levelized Cost of Energy (₱ / kWh)'][0:1].item()
 
         #.2 serves as an offset from the y axis
         x = [1.2,1.2,1.2,1.2,1.2,1.2,2.2,2.2,2.2,2.2,2.2,2.2]
-        y = [min_2010,min_2010,avg_2010,avg_2010,max_2010,max_2010,min_2017,min_2017,avg_2017,avg_2017,max_2017,max_2017]
+        y = [min_2010,min_2010,avg_2010,avg_2010,max_2010,max_2010,min_2019,min_2019,avg_2019,avg_2019,max_2019,max_2019]
 
         trace = go.Box(
                 x=x,
@@ -581,7 +581,7 @@ def lcoe_graph(rows, columns):
         
         line_trace = go.Scatter(
                 x=[1.2,2.2],
-                y=[avg_2010,avg_2017],
+                y=[avg_2010,avg_2019],
                 line = dict(
                     color = color,
                     width = 3,
@@ -634,7 +634,7 @@ def lcoe_graph(rows, columns):
 
     for i in range(1,len(traces) + 1):
         fig['layout'][f'xaxis{i}'].update(tickvals=[1,1.2,2.2,3.2],
-        ticktext=[' ','Global<br>2010 LCOE','Global<br>2018 LCOE','Your Actual<br>2019 LCOE'],
+        ticktext=[' ','Global<br>2010 LCOE','Global<br>2019 LCOE','Your Actual<br>2021 LCOE'],
         tickangle=0, tickfont=dict(size=10))
         
     fig['layout']['yaxis'].update(title='₱ / kWh LCOE', range=[0,20])
