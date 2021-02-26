@@ -812,7 +812,7 @@ html.Div([
     html.Div([
         dcc.Markdown("""
         So far you have learned what your REC obligations are under the RPS, you have explored how much capacity is needed for different renewable technologies to meet your utility's obligations, 
-        and you have planned for what years you will need to procure renewables by.
+        and you have planned for what years you will need to procure renewables. Click the link below to access the calculation offline.
         """)
     ],
     className='twelve columns'),
@@ -947,11 +947,17 @@ html.Div([
                 
                 [Department of Energy. "Rules and Regulations Implementing Republic Act No.9513". DC2009-05-0008. Published 2009.](https://www.doe.gov.ph/sites/default/files/pdf/issuances/dc2009-05-0008.pdf)
             
+                
+                
+                *Energy Sales and Demand Growth data from:*
+
+                [Department of Energy (DOE). "2018-2027 Distribution Development Plan." Published 2020.](https://www.doe.gov.ph/sites/default/files/pdf/electric_power/2018-2027_distribution_development_plan.pdf)
+
 
                 *LCOE data from:*
 
-                [International Renewable Energy Agency (IRENA). "Renewable Power Generation Costs in 2017." Published 2018.](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2018/Jan/IRENA_2017_Power_Costs_2018.pdf)
-            
+                [International Renewable Energy Agency (IRENA). "Renewable Power Generation Costs in 2019." Published 2020.](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2020/Jun/IRENA_Power_Generation_Costs_2019.pdf)
+          
 
                 *Additional Price Data from:*
 
