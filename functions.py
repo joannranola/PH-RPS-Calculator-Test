@@ -706,7 +706,7 @@ def html_REC_balance_table(json):
     float_columns = ['Energy Sales (MWh)','RPS Requirement (RECs)', 'RECs Created', 'RECs Expired', 'Year End REC Balance','REC Purchase Requirement']
     dfout[float_columns] = dfout[float_columns].round(0)
     dfout[float_columns] = add_commas(dfout[float_columns])
-    dfout['RPS Requirement (%)'] = [str(round(i*100, 1))+'%' for i in dfout['RPS Requirement (%)']]
+    dfout['RPS Requirement (%)'] = [str(round(i*100, 2))+'%' for i in dfout['RPS Requirement (%)']]
     dictout = dfout.to_dict('records')
     return dictout
 
