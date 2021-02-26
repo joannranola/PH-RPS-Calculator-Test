@@ -463,7 +463,7 @@ html_obj = html.Div([
                                         '\u003f\u20dd',
                                         html.Span('The rate of electricity growth in your utility service territory, this rate will be applied to the inputed annual demand.'
                                         , className="tooltiptext")], className="tooltip", style={'padding-left':5}),        
-                                    dcc.Input(id='demand_growth',value=6.3,type='number',step=0.05,style={'width':'100%'})
+                                    dcc.Input(id='demand_growth',value=6.3,type='number',step=0.01,style={'width':'100%'})
                                         ],
                                     className='four columns',
                                 ),
