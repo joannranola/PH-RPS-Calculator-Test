@@ -151,7 +151,7 @@ def demand_mw_updater(utility):
 )
 def growth_mw_updater(utility):
     """Update utility growth %."""
-    output = resources.utility_dict[utility]['growth_floor'] * 100 #scaled to 100
+    output = round(resources.utility_dict[utility]['growth_floor'] * 100,4) #scaled to 100
     return output
 
 @app.callback(
