@@ -663,7 +663,7 @@ html.Div([
     The graphs below display the median price, along with global prices between the fifth and ninety-fifth percentiles. Note that some technologies, like geothermal or hydro might only be suitable for larger capacity installations,
     while solar, biomass, and wind are more likely to be scalable to your custom capacity requirements. 
 
-    The IRENA LCOE data informs us that the price of renewables has declined dramatically in recent years. Since 2010, the average LCOE for solar has declined 82% from $0.378 (Php 18.5) to $0.068 (Php 3.3) per kWh in 2017.
+    The IRENA LCOE data informs us that the price of renewables has declined dramatically in recent years. Since 2010, the average LCOE for solar has declined 82% from $0.378 (Php 18.5) to $0.068 (Php 3.3) per kWh in 2019.
     Over the same time period, wind's LCOE has declined 38% from $0.086 (Php 4.2) to $0.053 (Php 2.6) per kWh, while other technologies like geothermal, biomass, and hydro have remained constant or seen slight increases in cost. 
     Renewables may be less expensive on a per kWh basis than coal or natural gas and also are not susceptible to fluctuations in fuel prices. 
 
