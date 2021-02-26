@@ -824,13 +824,13 @@ html.Div([
     ],
     className='twelve columns'),
     
-    html.Div([
-        html.A(
-            "Download RPS Calculator", 
-            href=r"assets/CEIA Philippine RPS Calculator.xlsb", 
-            download=r"assets/CEIA Philippine RPS Calculator.xlsb")
-    ],
-    className='twelve columns'),
+    html.A(
+        "Download RPS Calculator", 
+        href=r"assets/CEIA Philippine RPS Calculator.xlsb", 
+        download=r"assets/CEIA Philippine RPS Calculator.xlsb"),
+    
+    html.Div(
+        className='twelve columns'),
     
     html.Div([
         dcc.Markdown("""
