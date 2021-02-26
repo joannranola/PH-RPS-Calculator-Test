@@ -822,11 +822,11 @@ html.Div([
         href=r"assets/CEIA Philippine RPS Calculator.xlsb", 
         download=r"assets/CEIA Philippine RPS Calculator.xlsb"),
     
-    html.Div(
-        className='twelve columns'),
-
-    html.Div(
-        className='twelve columns'),
+    html.Div([
+        dcc.Markdown("""
+        """)
+    ],
+    className='twelve columns'),
 
     html.Div([
         dcc.Markdown("""
