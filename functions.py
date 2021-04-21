@@ -682,7 +682,7 @@ def doughnut_graph(json):
 
     layout = go.Layout(height=350, grid={"rows": 1, "columns": 2}, showlegend=True)
     fig = go.Figure(data = traces, layout = layout)
-    fig['layout']['title'].update(text='Comparative Generation Mix 2018 vs. 2030', x=0.5)
+    fig['layout']['title'].update(text='Comparative Generation Mix 2019 vs. 2030', x=0.5)
     fig['layout'].update(legend=dict(orientation="h"))
     fig['layout']['margin'].update(l=40,r=40,b=40,t=40,pad=0)
     
